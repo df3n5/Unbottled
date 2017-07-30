@@ -12,6 +12,9 @@ define man = Character("Man", image="man")
 image side woman = ("woman.png")
 define woman = Character("Woman", image="woman")
 
+image side dr = ("dr.png")
+define dr = Character("Doctor", image="dr")
+
 # The game starts here.
 
 label start:
@@ -36,6 +39,8 @@ label start:
 
     #man "Once you add a story, pictures, and music, you can release it to the world!"
     woman "Hello"
+
+    dr "Hello"
 
     # This ends the game.
 
