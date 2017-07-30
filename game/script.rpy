@@ -7,7 +7,10 @@
 #image side man = "man.png"
 
 image side man = ("man.png")
-define man = Character("Man", image="man", xalign=1.0, yalign=1.0)
+define man = Character("Man", image="man")
+
+image side woman = ("woman.png")
+define woman = Character("Woman", image="woman")
 
 # The game starts here.
 
@@ -31,7 +34,8 @@ label start:
 
     man "You've created a new Ren'Py game."
 
-    man "Once you add a story, pictures, and music, you can release it to the world!"
+    #man "Once you add a story, pictures, and music, you can release it to the world!"
+    woman "Hello"
 
     # This ends the game.
 
