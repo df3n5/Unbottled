@@ -10,6 +10,7 @@ init offset = -2
 ## width and height of the game.
 init python:
     gui.init(1280, 720)
+    #gui.init(1170, 830)
 
 
 
